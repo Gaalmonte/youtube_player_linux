@@ -4,11 +4,16 @@ class MainUI(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("YouTube Music Desktop")
+        self.setWindowTitle("YouTube Player Linux")
         self.setGeometry(200, 200, 400, 200)
 
         self.layout = QVBoxLayout()
 
+        # Song Thumbnail
+        self.thumbnail_label = QLabel(self)
+        self.layout.addWidget(self.thumbnail_label)
+
+        # Search box
         self.search_box = QLineEdit(self)
         self.search_box.setPlaceholderText("Search for a song...")
         self.layout.addWidget(self.search_box)
