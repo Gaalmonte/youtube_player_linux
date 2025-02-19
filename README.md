@@ -16,9 +16,9 @@
     yt-dlp – A fork of youtube-dl, allows fetching and playing YouTube Music audio streams.
     FFmpeg / VLC Python Bindings – To decode and play audio.
 
-### 5. Authentication (Optional)
+### 5. Authentication
 
-    OAuth2 with Google API – If you need user login for YouTube Music (tricky to set up).
+    OAuth2 with Google API – If you need user login for YouTube Music.
 
 ### 6. Packaging & Deployment
 
