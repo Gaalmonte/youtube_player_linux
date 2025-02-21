@@ -1,4 +1,5 @@
-<p align="center">![YT_Application](yt_app_pic.png)
+<p align="center">
+    ![YT_Application](yt_app_pic.png)
 </p>
 ## Tech Stack
 ### 1. Programming Language:
