@@ -1,5 +1,5 @@
 <p align="center">
-    ![YT_Application](yt_app_pic.png)
+    <img src="yt_app_pic.png" alt="YT_Application_Picture"]
 </p>
 ## Tech Stack
 ### 1. Programming Language:
