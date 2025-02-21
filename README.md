@@ -1,6 +1,8 @@
 <p align="center">
     <img src="yt_app_pic.png" alt="YT_Application_Picture"]
 </p>
+
+    
 ## Tech Stack
 ### 1. Programming Language:
 
