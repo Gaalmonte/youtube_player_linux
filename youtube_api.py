@@ -1,7 +1,7 @@
 from ytmusicapi import YTMusic, OAuthCredentials
 import yt_dlp
 
-ytmusic = YTMusic("oauth.json","117715915696164247781", oauth_credentials=OAuthCredentials(client_id="977492998858-d0salhc8c3i71oe6jit1kgbfot8s1m0c.apps.googleusercontent.com", client_secret="977492998858-d0salhc8c3i71oe6jit1kgbfot8s1m0c.apps.googleusercontent.com"))
+ytmusic = YTMusic()
 
 def search_song(query):
     """Search for a song on YT"""
