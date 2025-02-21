@@ -21,19 +21,9 @@
     yt-dlp – A fork of youtube-dl, allows fetching and playing YouTube Music audio streams.
     FFmpeg / VLC Python Bindings – To decode and play audio.
 
-### 5. Authentication
-
-    OAuth2 with Google API – If you need user login for YouTube Music.
-
-### 6. Packaging & Deployment
-
-    AppImage / Flatpak / Snap – To distribute the app in a Linux-friendly way.
-
 ## Project Breakdown
 
-    Set up GUI with PyQt6 or PySide6 – Create a simple UI with a search bar, play/pause buttons, and a playlist area.
+    Set up GUI with PyQt6 or PySide6 – Create a simple UI with a search bar, play/pause buttons.
     Use ytmusicapi to fetch YouTube Music data – Get song metadata, URLs, and thumbnails.
     Use yt-dlp to fetch and stream audio – Extract direct audio URLs and play using FFmpeg or VLC.
-    Integrate playback controls – Play/pause, next/previous track, volume control.
-    (Optional) Add Local Playlists – Store user-created playlists in SQLite.
-    Package and distribute – Use PyInstaller, then create an AppImage or Flatpak for easy installation.
+    Integrate playback controls – Play/pause
