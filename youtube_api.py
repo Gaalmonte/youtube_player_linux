@@ -1,4 +1,4 @@
-from ytmusicapi import YTMusic, OAuthCredentials
+from ytmusicapi import YTMusic
 import yt_dlp
 
 ytmusic = YTMusic()
