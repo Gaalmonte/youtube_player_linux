@@ -1,4 +1,4 @@
-[YT_Application][yt_app_pic.png]
+![YT_Application](yt_app_pic.png)
 
 ## Tech Stack
 ### 1. Programming Language:
